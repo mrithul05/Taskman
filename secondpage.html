@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=evice-width,initial-scale=1.0">
+        <link rel="stylesheet" href="css/styles.css">
+        <link rel="stylesheet" href="https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    </head>
+    <body>
+        <div class="containr">
+            <div class="headr">
+                <button onclick='window.location.href="firstpage.html"' class="ic"><i class="fas fa-solid fa-angle-left"></i></button>
+                <h1>New Task</h1>
+                <span class="id"><i class="fas fa-solid fa-bell"></i></span>
+            </div>
+            <div class="for-gp">
+                <label>Task Name</label>
+                <input type="text" value="Create Task Management App"/>
+            </div>
+            <div class="for-gp">
+                <label>Description
+                </label>
+                <input type="text" placeholder="Some Text"/>
+            </div>
+            <div class="for-gp">
+                <label>Team Members</label>
+                <div class="team-members">
+                <div class="members add">
+                    <div class="plus">+</div>
+                    <p>Add</p>
+                    <span>Member</span>
+                </div>
+                <div class="members">
+                    <div class="remb">
+                    <img src="assest/avtr1.jpeg">
+                    <button class="remove"><i class="fas fa-solid fa-xmark"></i></button>
+                </div>
+                    <p>You<br>
+                    <span>Designer</span>
+                    </p>
+                </div>
+                <div class="members">
+                    <div class="remb">
+                    <img src="assest/avtr2.jpeg">
+                    <button class="remove"><i class="fas fa-solid fa-xmark"></i></button>
+                    </div>
+                    <p>Priya<br>
+                    <span>Designer</span>
+                    </p>
+                </div>
+                <div class="members">
+                  <div class="remb">
+                    <img src="assest/pnr.jpeg">
+                    <button class="remove"><i class="fas fa-solid fa-xmark"></i></button>
+                  </div>
+                    <p>Rahul<br>
+                    <span>Manager</span>
+                    </p>
+                </div>
+                <div class="members">
+                    <div class="remb">
+                    <img src="assest/avtr4.jpeg">
+                    <button class="remove"><i class="fas fa-solid fa-xmark"></i></button>
+                    </div>
+                    <p>Harini<br>
+                    <span>Manager</span>
+                    </p>
+                </div>
+                </div>
+            </div>
+            <div class=" for-gp time">
+                <label>Time</label>
+            <div class="time-buttons">
+                <button class="time-inputs">
+                    <span class="sl">Starts</span>
+                    <div class="time-cont">
+                    <input type="time" value="11:11" class="time-in"/>
+                    <select class="ampm">
+                        <option>AM</option>
+                        <option>PM</option>
+                    </select>
+                    </div>
+                </button>
+                <button class="time-inputs">
+                    <span class="sl">Ends</span>
+                    <div class="time-cont">
+                    <input type="time" value="13:00" class="time-in"/>
+                 <select class="ampm">
+                    <option>AM</option>
+                    <option selected>PM</option>
+                 </select>
+                    </div>
+                </button>
+            </div>
+                
+            </div>
+            <div class="for-gps">
+                <label>Files</label>
+                <button class="upload-btn"><i class="fas fa-upload"></i>Upload</button>
+            </div>
+            <button onclick='window.location.href="firstpage.html"'   class="create-btn">Create</button>
+            <footer>
+                <button class="nav-icon"><i class="fas fa-home"></i></button>
+                <button class="nav-icon add"><i class="fas fa-plus"></i><span>Add</span></button>
+                <button class="nav-icon "><i class="fas fa-tasks"></i></button>
+                <button class="nav-icon"><i class="fas fa-gear icon"></i></button>
+            </footer>
+        </div>
+    </body>
+</html>

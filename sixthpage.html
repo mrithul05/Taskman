@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=evice-width,initial-scale=1.0">
+        <link rel="stylesheet" href="css/styles.css">
+        <link rel="stylesheet" href="https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    </head>
+    <body>
+        <div class="containers">
+            <div class="fl">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 114 114" fill="currentColor" class="size-5">
+                <path fill-rule="evenodd" d="M2 4.75A.75.75 0 0 1 2.75 4h14.5a.75.75 0 0 1 0 1.5H2.75A.75.75 0 0 1 2 4.75Zm0 10.5a.75.75 0 0 1 .75-.75h7.5a.75.75 0 0 1 0 1.5h-7.5a.75.75 0 0 1-.75-.75ZM2 10a.75.75 0 0 1 .75-.75h14.5a.75.75 0 0 1 0 1.5H2.75A.75.75 0 0 1 2 10Z" clip-rule="evenodd" />
+              </svg>
+
+                 <img src="assest/pnr.jpeg" alt=""/>
+                 <div class="bell">
+                  <i class="fas fa-solid fa-bell"></i> 
+                 </div>
+            </div>
+        <div class="ttitle">Start your day & Be Productive 💪</div>
+        <div class="search-bar">
+            
+            <input type="text" placeholder="Search">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-4.35-4.35M10.5 17a6.5 6.5 0 100-13 6.5 6.5 0 000 13z"/></svg>
+        </div>
+            <button class="slide">
+            <i class="fi fi-rr-settings-sliders"></i>
+            </button>
+            <div class="filter-popup">
+                <div class="filter-card">
+                    <button class="cl-btn"><i class="fas fa-solid fa-xmark"></i></button>
+                    <div class="filter-section">
+                        <h4>Status</h4>
+                        <button>All</button>
+                        <button>Active</button>
+                        <button class="c-btn">Completed</button>
+                    </div>
+                    <div class="filter-section">
+                        <h4>Priority</h4>
+                        <button class="h-btn">High</button>
+                        <button class="m-btn">Medium</button>
+                        <button>Low</button>
+                    </div>
+                    <div class="filter-section">
+                        <h4>Date</h4>
+                        <button>Today</button>
+                        <button>This</button>
+                        <button>Custom date</button>
+                    </div>
+                    <button class="apl-btn">Apply</button>
+                </div>
+            </div>
+        
+        <div class="card-container">
+            <div class="card high">
+              <div class="card-header">
+                <span class="priority">
+                  High Priority
+                  <i class="fas fa-solid fa-flag" style="color: red;"></i>
+                </span>
+                <span class="title">Design System Documentation</span>
+              </div>
+              <div class="progress-bar">
+                <div class="progress" style="width: 90%;"></div>
+              </div>
+              <div class="footer">
+                <div class="avatars">
+                <img src="assest/avtr4.jpeg" class="avatar" />
+                <img src="assest/avtr2.jpeg" class="avatar" />
+                <img src="assest/avtr3.jpeg" class="avatar" />
+              </div>
+              
+                <div class="comments">
+                  <i class="fa-regular fa-comment-dots"></i>
+                  <span>08</span>
+                </div>
+              </div>
+            </div>
+          
+            
+            <div class="card medium">
+              <div class="card-header">
+                <span class="priority">Medium Priority
+                  <i class="fas fa-flag" style="color:yellow;"></i>
+                </span>
+                <span class="title">Meeting with Developer</span>
+              </div>
+              <div class="progress-bar">
+                <div class="progress" style="width: 75%;"></div>
+              </div>
+              <div class="footer">
+                <div class="avatars">
+                <img src="https://i.pravatar.cc/24?img=1" class="avatar" />
+                <img src="https://i.pravatar.cc/24?img=2" class="avatar" />
+                <img src="https://i.pravatar.cc/24?img=3" class="avatar" />
+              </div>
+              <div class="comments">
+                <i class="fa-regular fa-comment-dots"></i>
+                <span>08</span>
+              </div>
+              </div>
+              </div>
+              
+            
+          </div>
+          <div class="dots hide-inside-popup">
+            <span class="dot active"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+          </div>
+          
+        <div class="task-tabs">
+            <button>All (12)</button>
+            <button class="active">Today's tasks (5)</button>
+            <button>Weekly tasks (7)</button>
+          </div>
+          <div class="dots hide-inside-popup">
+            <span class="dot active"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+          </div>
+      
+        <div class="today-task">
+            <div class="task-item high">
+              <div class="task-header">
+                <h4>Make a dribble shot for Hyperactive</h3>
+                <div class="avatar-group right">
+                  <img src="assest/avtr1.jpeg" class="avatar">
+                  <img src="assest/avtr2.jpeg" class="avatar">
+                </div>
+              </div>
+              <div class="meta">
+                <span class="meta-bor"><i class="fas fa-clock"></i> 5:00 PM</span>
+                <span class="meta-bor"><i class="fas fa-flag" style="color:red;"></i> High</span>
+              </div>
+              <button class="drag-area" type="button">
+                <span class="checkmark"><i class="fas fa-check"></i></span>
+                <span class="drag-text">Drag to mark done</span>
+                <span class="arrow"><i class="fas fa-angles-right"></i></span>
+              </button>
+            </div>
+      
+            <div class="task-item medium">
+             <div class="task-header">
+              <h4>UI Changes in unified portal</h4>
+              <div class="avatar-group right">
+                <img src="assest/avtr3.jpeg" class="avatar">
+                <img src="assest/avtr4.jpeg" class="avatar">
+              </div>
+            </div>
+              <div class="meta">
+                <span class="meta-bor"><i class="fas fa-solid fa-clock"></i> 8:00 PM</span>
+                <span class="meta-bor"><i class="fas fa-solid fa-flag" style="color:yellow;"></i> Medium</span>
+              </div>
+              <div class="drag-slider">
+              <button class="drag-area" type="button">
+                <span class="checkmark"><i class="fas fa-check"></i></span>
+                <span class="drag-text">Drag to mark done</span>
+                <span class="arrow"><i class="fas fa-angles-right"></i></span>
+              </button>
+              </div>
+            </div>
+        </div>
+       <div class="navbar">
+       <div class="nav-item home-icon">
+      <i class="fas  fa-solid fa-house icon" style="width:26px;"></i>  
+      <span class="label">Home</span>
+      </div>
+      <div class="nav-item center-button">
+      <i class="fas fa-solid fa-plus"></i>
+     </div>
+     <div class="nav-item">
+      <i class="fas fa-solid fa-tasks"></i>
+      </div>
+      <div class="nav-item">
+      <i class="fas  fa-solid fa-gear icon"></i>
+     </div>
+     </div>
+
+  </div>
+  </body>
+  </html>

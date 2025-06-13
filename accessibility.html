@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Accessibility</title>
+  <link rel="stylesheet" href="css/stylesc.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+      <header>
+        <button  onclick='window.location.href="settings.html"' class="back-btn"><i class="fas fa-chevron-left"></i></button>
+        <h1>Accessibility</h1>
+        <button class="notif-btn"><i class="fas fa-bell"></i></button>
+      </header>
+  
+      <section class="intro">
+        <h2>Your tasks, your way</h2>
+        <p>
+          We've made it easier to use Google Tasks with screen readers and voice commands.
+          Here are some of the new features.
+        </p>
+      </section>
+  
+      <section class="setting">
+        <div class="setting-text">
+          <h3>Control tasks with your voice</h3>
+          <p>Voice control for creating and managing tasks</p>
+        </div>
+        <div class="setting-icon"><i class="fas fa-microphone"></i></div>
+        <label class="switch">
+          <input type="checkbox" checked>
+          <span class="slider"></span>
+        </label>
+      </section>
+  
+      <section class="setting">
+        <div class="setting-text">
+          <h3>High contrast mode</h3>
+          <p>Larger text and touch targets for easier navigation</p>
+        </div>
+        <div class="setting-icon"><i class="fas fa-circle-check"></i></div>
+        <label class="switch">
+          <input type="checkbox">
+          <span class="slider"></span>
+        </label>
+      </section>
+  
+      <section class="setting">
+        <div class="setting-text">
+          <h3>New keyboard shortcuts</h3>
+          <p>All-new keyboard shortcuts for faster task management</p>
+        </div>
+        <div class="setting-icon"><i class="fas fa-keyboard"></i></div>
+        <label class="switch">
+          <input type="checkbox">
+          <span class="slider"></span>
+        </label>
+      </section>
+  
+      <nav class="bottom-nav">
+        <button class="nav-btn"><i class="fas fa-home"></i></button>
+        <button class="nav-btn"><i class="fas fa-plus"></i></button>
+        <button class="nav-btn"><i class="fas fa-tasks"></i></button>
+        <button class="nav-btn active"><i class="fas fa-gear"></i><span class="label">Settings</span></button>
+      </nav>
+    </div>
+  </body>

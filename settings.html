@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Settings UI</title>
+  <link rel="stylesheet" href="css/stylesb.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+  <div class="settings-container">
+    <div class="settings-header">
+      <button  onclick='window.location.href="seventhpage.html"'   class="back-button"><i class="fas fa-chevron-left"></i></button>
+      <h2>Settings</h2>
+      <button class="notif-button"><i class="fas fa-bell"></i></button>
+    </div>
+
+    <ul class="settings-list">
+      <li>
+        <span><i class="fas fa-user"></i> Profile settings </span><button class="chevron-btn"><i class="fas fa-chevron-right"></i></button></li>
+      <li>
+        <span><i class="fas fa-volume-up"></i> Sounds & Notification </span><button class="chevron-btn"><i class="fas fa-chevron-right"></i></button></li>
+      <li>
+        <span><i class="fas fa-calendar-alt"></i> Date & Time </span><button class="chevron-btn"><i class="fas fa-chevron-right"></i></button></li>
+      <li>
+        <span><i class="fas fa-th-large"></i> Widgets </span><button class="chevron-btn"><i class="fas fa-chevron-right"></i></button></li>
+      <li>
+        <span><i class="fas fa-universal-access"></i> Accessibility </span><button onclick='window.location.href="accessibility.html"' class="chevron-btn"><i class="fas fa-chevron-right"></i></button></li>
+      <li>
+        <span><i class="fas fa-wrench"></i> General</span><button class="chevron-btn"><i class="fas fa-chevron-right"></i></button></li>
+      <li>
+        <span><i class="fas fa-question-circle"></i> Help & Feedback</span><button class="chevron-btn"><i class="fas fa-chevron-right"></i></button></li>
+    </ul>
+
+    <button class="logout-button">Log Out</button>
+
+    <div class="bottom-nav">
+      <button class="nav-btn"><i class="fas fa-home"></i></button>
+      <button class="nav-btn"><i class="fas fa-plus"></i></button>
+      <button class="nav-btn"><i class="fas fa-tasks"></i></button>
+      <button class="nav-btn active"><i class="fas fa-cog"></i><span>Settings</span></button>
+    </div>
+  </div>
+</body>
+</html>
