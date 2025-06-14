@@ -1,13 +1,13 @@
 body {
     margin: 0;
     font-family: 'Segoe UI', sans-serif;
-    background-color: #d3d3d3;
+    background-color: #0d0808;
   }
   
   .apps {
     max-width: 400px;
     margin: 0 auto;
-    background: #e6e6f2;
+    background: #e4e4ec;
     border-radius: 25px;
     padding: 20px;
     min-height: 100vh;
@@ -151,7 +151,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 300;
     margin-bottom: 10px;
-    margin-left: 3px;
+    margin-left: 7px;
   }
   
   .my-lists .tasks {
@@ -163,6 +163,7 @@ body {
     align-items: center;
     gap: 12px;
     padding: 10px 0;
+    margin-left: 7px;
   }
   
   .task-item .icon {
@@ -187,6 +188,7 @@ body {
     margin-left: auto;
     color: black;
     font-size: 1.05em;
+    margin-right: 17px;
   }
   
   .my-lists .icon {
@@ -224,6 +226,7 @@ body {
   .primary {
     background-color: #1d8ce0;
     color: white;
+    margin-left: 11px;
     
   }
   .secondary {
@@ -236,7 +239,7 @@ body {
     padding-bottom: 140px;
   }
   .navbar {
-    height: 70px;
+    height: 64px;
     width: 380px;
     background: rgba(250, 248, 248, 0.82);
     display: flex;
@@ -279,7 +282,7 @@ body {
   
 
   .nav-item .icon {
-    font-size: 18px;
+    font-size: 17px;
     margin-bottom: 4px;
   }
   .home-icon{

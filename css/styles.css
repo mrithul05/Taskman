@@ -72,7 +72,7 @@ body{
     margin-top: 20px;
     position: relative;
     top: -185px;
-    margin-left: 20px;
+    margin-left: 25px;
 }
 .search-bar {
     display: flex;
@@ -255,8 +255,8 @@ body{
   
   .card {
     flex: 0 0 auto;
-    max-width: 50%;
-    min-width: 50%;
+    max-width: 48%;
+    min-width: 48%;
     box-sizing: border-box;
     overflow: hidden;
     border-radius: 15px;
@@ -272,7 +272,7 @@ body{
   
    .card.high {
     background: rgba(205,211,138,1);
-    margin-left:-39px;
+    
   }
   .card.highs{
     background: rgba(162, 142, 237, 1);
@@ -280,7 +280,7 @@ body{
   
   .card.medium {
     background: rgba(178,240,66,1);
-    margin-right: -39px;
+    
   }
   
   .card-header {
@@ -739,10 +739,11 @@ label {
  .for-gp input[type="text"] {
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-size: 15px;
-  width: 367px;
+  width: 360px;
   height:50px;
   padding: 10px;
   border: none;
+  margin-left:9px;
   border-radius: 24px;
   background: #fff;
 }
@@ -913,13 +914,14 @@ margin-top: 17px;
 }
 
 .create-btn {
-  width: 95%;
+  width: 88%;
   background-color: #2b7bd1;
   color: white;
   padding: 14px;
   font-size: 16px;
   border: none;
   border-radius: 15px;
+  margin-left: 18px;
   margin-top: 20px;
 }
 
