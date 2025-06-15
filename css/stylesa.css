@@ -211,7 +211,8 @@ body {
     display: flex;
     justify-content: space-between;
     margin: 20px 0;
-    gap:4px;
+    gap:9px;
+    width: 344px;
   }
   
   button {
@@ -220,6 +221,7 @@ body {
     font-size: 15px;
     border: none;
     border-radius: 12px;
+   
     cursor: pointer;
    
   }
@@ -239,8 +241,8 @@ body {
     padding-bottom: 140px;
   }
   .navbar {
-    height: 64px;
-    width: 380px;
+    height: 60px;
+    width: 368px;
     background: rgba(250, 248, 248, 0.82);
     display: flex;
     justify-content: space-around;
@@ -277,7 +279,7 @@ body {
     text-align: center;
     color: #333;
     font-size: 16px;
-    font-weight: 200;
+    font-weight: 100;
   }
   
 
@@ -306,7 +308,7 @@ body {
    
   }
  .task-icon{
-  border-radius: 30px;
+  border-radius: 40px;
    width:auto;
   gap:6px;
   width:100px;
@@ -324,7 +326,7 @@ body {
     padding: 14px;
     font-size: 16px;
     box-shadow: 0 4px 10px rgba(0,0,0,0.2);
-    
+    font-weight: 100;
     color: #000;
   }
 .nav-item:hover{
