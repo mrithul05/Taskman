@@ -21,7 +21,7 @@
     align-items: center;
     top:42px;
     width:100%;
-    width:385px;
+    max-width:385px;
     height:85vh;
     margin: auto;
     padding: 20px;
