@@ -862,6 +862,7 @@ margin-top: 17px;
 .time-inputs{
   flex: 1 1 48%;
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
   gap: 8px;
