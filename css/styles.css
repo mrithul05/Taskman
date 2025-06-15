@@ -933,13 +933,15 @@ footer {
   display: flex;
   justify-content: space-around;
   background: #F0F0F1;
-
+ 
   border: 2px solid white;
   border: none;
   outline: none;
   padding: 12px;
   border-radius: 55px;
+  width:348px;
   height:85px;
+  margin-left: 20px;
 }
 
 .nav-icon {
@@ -957,7 +959,7 @@ footer {
 }
 .nav-icon span{
   margin-top: 4px;
-  font-size: 20px;
+  font-size: 24px;
   color:#333;
 }
 .nav-icon.add{
