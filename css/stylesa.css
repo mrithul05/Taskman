@@ -5,6 +5,7 @@ body {
   }
   
   .apps {
+    width:100%;
     max-width: 400px;
     margin: 0 auto;
     background: #e4e4ec;

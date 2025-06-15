@@ -13,7 +13,8 @@ body {
     border-radius: 23px;
     overflow: hidden;
     align-items: center;
-    width:375px;
+    width:100%;
+    max-width:375px;
     height:100vh;
     margin: auto;
     padding: 20px;

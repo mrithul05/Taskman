@@ -664,7 +664,8 @@ body {
 }
 
 .containr {
-  width: 430px;
+  width:100%;
+  max-width: 430px;
   height:105vh;
   margin: auto;
   padding: 20px;
