@@ -665,12 +665,13 @@ body {
 }
 
 .containr {
-  width:100%;
-  max-width: 460px;
-  height:115vh;
-  margin: auto;
-  padding: 20px;
+ 
+  width: 450px;
+  height:110vh;
+  margin: 0 auto;
+  padding: 0 16px;
   background: #e4e4ec;
+  box-sizing: border-box;
   border-radius: 20px;
   box-shadow: 0 0 10px #ccc;
 }
@@ -684,16 +685,18 @@ body {
 .ic{
   border: 2px solid white;
   border-radius:50%;
-  height:40px;
-  width:40px;
+  height:50px;
+  width:50px;
   padding:8px;
-  margin-bottom: 12px;
+  margin-bottom: 8px;
+  margin-top: 10px;
   margin-left:9px ;
 }
  
 .ic i{
-  font-size: 24px;
+  font-size: 29px;
   margin-left: -2px;
+ 
  
   
 }
@@ -701,8 +704,8 @@ body {
 .id{
   border: 2px solid white;
   border-radius:50%;
-  height:43px;
-  width:43px;
+  height:50px;
+  width:50px;
   padding:8px;
  
   margin-bottom: -1px;
@@ -710,7 +713,7 @@ body {
 }
 .id i{
   margin-left: 3px;
-  font-size: 22px;
+  font-size: 29px;
 }
 
 
@@ -742,7 +745,7 @@ label {
  .for-gp input[type="text"] {
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-size: 15px;
-  width: 360px;
+  width: 380px;
   height:50px;
   padding: 10px;
   border: none;
@@ -754,7 +757,7 @@ label {
 .team-members{
   display: flex;
   align-items: center;
-  gap: 9px;
+  gap: 19px;
   flex-wrap: wrap;
 }
 
@@ -764,7 +767,7 @@ label {
   flex-direction: column;
   align-items: center;
   text-align: center;
-  font-size: 12px;
+  font-size: 19px;
   margin-bottom: 15px;
 }
 
@@ -860,6 +863,7 @@ margin-top: 17px;
 
 }
 .time-inputs{
+  min-width: 0;
   flex: 1 1 48%;
   display: flex;
   flex-wrap: wrap;
@@ -873,10 +877,11 @@ margin-top: 17px;
  height: 35px;
  cursor:pointer; 
  width: fit-content;
- width:105%;
+ width:100%;
 }
 .time-inputs .sl{
-  font-weight: 500;
+  font-weight: 300;
+
 }
 .time-inputs .time-in{
   border: none;
@@ -940,7 +945,8 @@ footer {
   outline: none;
   padding: 12px;
   border-radius: 55px;
-  width:348px;
+  
+  width:368px;
   height:85px;
   margin-left: 20px;
 }
